@@ -1,0 +1,3 @@
+[submodule "insight-cli"]
+	path = insight-cli
+	url = https://github.com/ChenGrant/insight-cli
