@@ -2,17 +2,17 @@
 
 ## Overview
 
-insight is a search engine that enables developers to search for code snippets within their codebase using natural language queries.
+insight is a search engine that enables developers to search codebases using natural language queries.
 
 ## Installation
 
-To use insight, ensure that you have Python version 3.10.0+. Then, install the insight-cli globally by running the following command:
+To use insight, ensure that Python version 3.10.0+ is installed. Then, install the insight-cli globally by running the following command:
 
 ```bash
 $ pip install insight-cli
 ```
 
-To ensure the insight-cli was successfully installed, check your insight-cli version by running the following command:
+To ensure the insight-cli was successfully installed, check the insight-cli version by running the following command:
 
 ```bash
 $ insight --version
@@ -44,12 +44,12 @@ $ insight --uninitialize
 
 ## .insightignore
 
-The .insightignore file allows you to use regex patterns to specify directory and file paths to ignore in an insight repository.
+The .insightignore file contains regex patterns that specify directory and file paths to ignore in an insight repository.
 
 <ul>
     <li>Empty lines are not matchable, they serve as separators for readability</li>
     <li>Non-comment lines will be considered as a single regex pattern.</li>
-    <li>Lines starting with # serve as comments. Put a backslash '\' in front of the first hash for patterns that begin with a hash.</li>
+    <li>Lines starting with # serve as comments. A single backslash '\' is placed in front of the first hash for patterns that begin with a hash.</li>
     <li>Scope comments designate patterns to apply exclusively within the specified scope until encountering another scope comment. '## _directory_' and '## _file_' are scope comments which target patterns within directory and file path scopes, respectively.</li>
 </ul>
 
