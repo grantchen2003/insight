@@ -6,13 +6,13 @@ insight is a search engine that enables developers to search for code snippets w
 
 ## Installation
 
-To use insight, ensure that you have Python version 3.10.0+. Then install the insight-cli globally by running the following command:
+To use insight, ensure that you have Python version 3.10.0+. Then, install the insight-cli globally by running the following command:
 
 ```bash
 $ pip install insight-cli
 ```
 
-To ensure the insight-cli was successfully installed, check your insight-cli version by running:
+To ensure the insight-cli was successfully installed, check your insight-cli version by running the following command:
 
 ```bash
 $ insight --version
@@ -44,7 +44,7 @@ $ insight --uninitialize
 
 ## .insightignore
 
-The .insightignore file allows you to use regex patterns to specify directory and file paths to ignore in the insight repository.
+The .insightignore file allows you to use regex patterns to specify directory and file paths to ignore in an insight repository.
 
 <ul>
     <li>Empty lines are not matchable, they serve as separators for readability</li>
@@ -95,7 +95,7 @@ Initialize the current directory as an insight repository. This will create a .i
 
 ```bash
 $ insight --initialize
-The current directory has been successfully initialized as an insight repository.
+Initialized insight repository in /path/to/current/directory/fitcountr
 ```
 
 Create a .insightignore file in the current directory and specify that insight should ignore the .git directory.
