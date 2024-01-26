@@ -1,6 +1,6 @@
-[submodule "api"]
-	path = api
-	url = https://github.com/ChenGrant/insight-api
+[submodule "api-gateway"]
+	path = api-gateway
+	url = https://github.com/ChenGrant/insight-api-gateway
 
 [submodule "cli"]
 	path = cli
