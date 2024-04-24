@@ -5,3 +5,7 @@
 [submodule "cli"]
 	path = cli
 	url = https://github.com/ChenGrant/insight-cli
+	
+[submodule "repository-service"]
+	path = repository-service
+	url = https://github.com/ChenGrant/insight-repository-service.git
