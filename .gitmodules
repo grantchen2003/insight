@@ -9,3 +9,6 @@
 [submodule "repository-service"]
 	path = repository-service
 	url = https://github.com/ChenGrant/insight-repository-service.git
+[submodule "repository-sync-service"]
+	path = repository-sync-service
+	url = https://github.com/ChenGrant/insight-repository-sync-service.git
