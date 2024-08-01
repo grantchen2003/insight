@@ -1,14 +1,23 @@
 [submodule "api-gateway"]
 	path = api-gateway
-	url = https://github.com/ChenGrant/insight-api-gateway
+	url = https://github.com/grantchen2003/insight-api-gateway
 
 [submodule "cli"]
 	path = cli
-	url = https://github.com/ChenGrant/insight-cli
+	url = https://github.com/grantchen2003/insight-cli
+
+[submodule "file-chunks-service"]
+	path = file-chunks-service
+	url = https://github.com/grantchen2003/insight-file-chunks-service
+
+[submodule "file-components-service"]
+	path = file-components-service
+	url = https://github.com/grantchen2003/insight-file-components-service
 	
 [submodule "repository-service"]
 	path = repository-service
-	url = https://github.com/ChenGrant/insight-repository-service.git
-[submodule "repository-sync-service"]
-	path = repository-sync-service
-	url = https://github.com/ChenGrant/insight-repository-sync-service.git
+	url = https://github.com/grantchen2003/insight-repository-service.git
+
+[submodule "vector-embedder-service"]
+	path = vector-embedder-service
+	url = https://github.com/grantchen2003/insight-vector-embedder-service.git
